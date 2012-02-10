@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    BOOL paused;
+}
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UIButton *pauseButton;
+@property (strong, nonatomic) IBOutlet UISlider *volumeSlider;
+- (IBAction)buttonTouched:(id)sender;
+@property (strong, nonatomic) IBOutlet UIView *mpVolumeViewParentView;
 
 @end

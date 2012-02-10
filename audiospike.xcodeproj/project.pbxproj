@@ -15,6 +15,8 @@
 		A19B535D14E57198001F43BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B535C14E57198001F43BC /* AppDelegate.m */; };
 		A19B536014E57199001F43BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19B535E14E57198001F43BC /* MainStoryboard.storyboard */; };
 		A19B536314E57199001F43BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B536214E57199001F43BC /* ViewController.m */; };
+		A19B536A14E57308001F43BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B536914E57308001F43BC /* AVFoundation.framework */; };
+		A19B536C14E5A069001F43BC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B536B14E5A069001F43BC /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		A19B534C14E57198001F43BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A19B534E14E57198001F43BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A19B535014E57198001F43BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A19B535414E57198001F43BC /* audiospike-Info.plist */ = {isa = PBXFileReference; path = "audiospike-Info.plist"; sourceTree = "<group>"; };
+		A19B535414E57198001F43BC /* audiospike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "audiospike-Info.plist"; sourceTree = "<group>"; };
 		A19B535614E57198001F43BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A19B535814E57198001F43BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A19B535A14E57198001F43BC /* audiospike-Prefix.pch */ = {isa = PBXFileReference; path = "audiospike-Prefix.pch"; sourceTree = "<group>"; };
-		A19B535B14E57198001F43BC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A19B535A14E57198001F43BC /* audiospike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "audiospike-Prefix.pch"; sourceTree = "<group>"; };
+		A19B535B14E57198001F43BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A19B535C14E57198001F43BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A19B535F14E57199001F43BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A19B536114E57199001F43BC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A19B536114E57199001F43BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A19B536214E57199001F43BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A19B536914E57308001F43BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A19B536B14E5A069001F43BC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19B536C14E5A069001F43BC /* MediaPlayer.framework in Frameworks */,
+				A19B536A14E57308001F43BC /* AVFoundation.framework in Frameworks */,
 				A19B534D14E57198001F43BC /* UIKit.framework in Frameworks */,
 				A19B534F14E57198001F43BC /* Foundation.framework in Frameworks */,
 				A19B535114E57198001F43BC /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,8 @@
 		A19B534B14E57198001F43BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A19B536B14E5A069001F43BC /* MediaPlayer.framework */,
+				A19B536914E57308001F43BC /* AVFoundation.framework */,
 				A19B534C14E57198001F43BC /* UIKit.framework */,
 				A19B534E14E57198001F43BC /* Foundation.framework */,
 				A19B535014E57198001F43BC /* CoreGraphics.framework */,
@@ -194,7 +202,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jay Wren (VAX2J7EHVA)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -209,6 +217,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5BADBEB3-43A3-4645-8DB7-D09D736B2B3D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
