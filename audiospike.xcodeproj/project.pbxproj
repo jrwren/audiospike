@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19B534D14E57198001F43BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B534C14E57198001F43BC /* UIKit.framework */; };
+		A19B534F14E57198001F43BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B534E14E57198001F43BC /* Foundation.framework */; };
+		A19B535114E57198001F43BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B535014E57198001F43BC /* CoreGraphics.framework */; };
+		A19B535714E57198001F43BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A19B535514E57198001F43BC /* InfoPlist.strings */; };
+		A19B535914E57198001F43BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B535814E57198001F43BC /* main.m */; };
+		A19B535D14E57198001F43BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B535C14E57198001F43BC /* AppDelegate.m */; };
+		A19B536014E57199001F43BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19B535E14E57198001F43BC /* MainStoryboard.storyboard */; };
+		A19B536314E57199001F43BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B536214E57199001F43BC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A19B534814E57198001F43BC /* audiospike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audiospike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19B534C14E57198001F43BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A19B534E14E57198001F43BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A19B535014E57198001F43BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A19B535414E57198001F43BC /* audiospike-Info.plist */ = {isa = PBXFileReference; path = "audiospike-Info.plist"; sourceTree = "<group>"; };
+		A19B535614E57198001F43BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A19B535814E57198001F43BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A19B535A14E57198001F43BC /* audiospike-Prefix.pch */ = {isa = PBXFileReference; path = "audiospike-Prefix.pch"; sourceTree = "<group>"; };
+		A19B535B14E57198001F43BC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A19B535C14E57198001F43BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A19B535F14E57199001F43BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A19B536114E57199001F43BC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A19B536214E57199001F43BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19B534514E57198001F43BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B534D14E57198001F43BC /* UIKit.framework in Frameworks */,
+				A19B534F14E57198001F43BC /* Foundation.framework in Frameworks */,
+				A19B535114E57198001F43BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19B533D14E57198001F43BC = {
+			isa = PBXGroup;
+			children = (
+				A19B535214E57198001F43BC /* audiospike */,
+				A19B534B14E57198001F43BC /* Frameworks */,
+				A19B534914E57198001F43BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19B534914E57198001F43BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19B534814E57198001F43BC /* audiospike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19B534B14E57198001F43BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19B534C14E57198001F43BC /* UIKit.framework */,
+				A19B534E14E57198001F43BC /* Foundation.framework */,
+				A19B535014E57198001F43BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19B535214E57198001F43BC /* audiospike */ = {
+			isa = PBXGroup;
+			children = (
+				A19B535B14E57198001F43BC /* AppDelegate.h */,
+				A19B535C14E57198001F43BC /* AppDelegate.m */,
+				A19B535E14E57198001F43BC /* MainStoryboard.storyboard */,
+				A19B536114E57199001F43BC /* ViewController.h */,
+				A19B536214E57199001F43BC /* ViewController.m */,
+				A19B535314E57198001F43BC /* Supporting Files */,
+			);
+			path = audiospike;
+			sourceTree = "<group>";
+		};
+		A19B535314E57198001F43BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19B535414E57198001F43BC /* audiospike-Info.plist */,
+				A19B535514E57198001F43BC /* InfoPlist.strings */,
+				A19B535814E57198001F43BC /* main.m */,
+				A19B535A14E57198001F43BC /* audiospike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19B534714E57198001F43BC /* audiospike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19B536614E57199001F43BC /* Build configuration list for PBXNativeTarget "audiospike" */;
+			buildPhases = (
+				A19B534414E57198001F43BC /* Sources */,
+				A19B534514E57198001F43BC /* Frameworks */,
+				A19B534614E57198001F43BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audiospike;
+			productName = audiospike;
+			productReference = A19B534814E57198001F43BC /* audiospike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19B533F14E57198001F43BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A19B534214E57198001F43BC /* Build configuration list for PBXProject "audiospike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A19B533D14E57198001F43BC;
+			productRefGroup = A19B534914E57198001F43BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19B534714E57198001F43BC /* audiospike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19B534614E57198001F43BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B535714E57198001F43BC /* InfoPlist.strings in Resources */,
+				A19B536014E57199001F43BC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19B534414E57198001F43BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B535914E57198001F43BC /* main.m in Sources */,
+				A19B535D14E57198001F43BC /* AppDelegate.m in Sources */,
+				A19B536314E57199001F43BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A19B535514E57198001F43BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19B535614E57198001F43BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A19B535E14E57198001F43BC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19B535F14E57199001F43BC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19B536414E57199001F43BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A19B536514E57199001F43BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19B536714E57199001F43BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audiospike/audiospike-Prefix.pch";
+				INFOPLIST_FILE = "audiospike/audiospike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A19B536814E57199001F43BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audiospike/audiospike-Prefix.pch";
+				INFOPLIST_FILE = "audiospike/audiospike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19B534214E57198001F43BC /* Build configuration list for PBXProject "audiospike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19B536414E57199001F43BC /* Debug */,
+				A19B536514E57199001F43BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19B536614E57199001F43BC /* Build configuration list for PBXNativeTarget "audiospike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19B536714E57199001F43BC /* Debug */,
+				A19B536814E57199001F43BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19B533F14E57198001F43BC /* Project object */;
+}
